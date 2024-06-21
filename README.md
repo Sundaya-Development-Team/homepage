@@ -1,4 +1,4 @@
-# Landing Page SundayaOne 1
+# Landing Page SundayaOne
 
 A new Flutter project.
 
