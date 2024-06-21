@@ -126,32 +126,32 @@ class Homepage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        IntrinsicWidth(
-                          child: ElevatedButton(
-                            onPressed: () {
-                              goToURL(
-                                  'https://apps.apple.com/us/app/sundaya-desktop/id6476724740');
-                            },
-                            child: const Padding(
-                              padding: EdgeInsets.all(8.0),
-                              child: Row(
-                                children: [
-                                  Icon(Icons.apple_rounded),
-                                  Padding(padding: EdgeInsets.only(left: 20)),
-                                  Expanded(
-                                    child: Text(
-                                      "Download for Mac OS (Beta)",
-                                      style: TextStyle(fontSize: 20),
-                                      overflow: TextOverflow.ellipsis,
-                                      textWidthBasis:
-                                          TextWidthBasis.longestLine,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ),
-                        )
+                        // IntrinsicWidth(
+                        //   child: ElevatedButton(
+                        //     onPressed: () {
+                        //       goToURL(
+                        //           'https://apps.apple.com/us/app/sundaya-desktop/id6476724740');
+                        //     },
+                        //     child: const Padding(
+                        //       padding: EdgeInsets.all(8.0),
+                        //       child: Row(
+                        //         children: [
+                        //           Icon(Icons.apple_rounded),
+                        //           Padding(padding: EdgeInsets.only(left: 20)),
+                        //           Expanded(
+                        //             child: Text(
+                        //               "Download for Mac OS (Beta)",
+                        //               style: TextStyle(fontSize: 20),
+                        //               overflow: TextOverflow.ellipsis,
+                        //               textWidthBasis:
+                        //                   TextWidthBasis.longestLine,
+                        //             ),
+                        //           ),
+                        //         ],
+                        //       ),
+                        //     ),
+                        //   ),
+                        // )
                       ],
                     ),
                   ],
