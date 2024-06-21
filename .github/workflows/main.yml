@@ -2,7 +2,7 @@ name: Deploy on Production Server
 
 on:
   push:
-    branches: [main]
+    branches: [prod]
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -17,4 +17,4 @@ jobs:
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
-          script: 'cd /apps/repositories/homepage/homepage && sudo git pull origin main'
+          script: 'cd /apps/repositories/homepage/homepage && sudo git pull origin prod'
